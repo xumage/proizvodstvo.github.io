@@ -111,6 +111,22 @@ li {
   margin-right: 100px;
 }
 
+.about {
+  display: flex;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.about__container {
+  padding: 25px;
+}
+
 .advantages {
   max-width: 1680px;
   flex-direction: column;
@@ -129,6 +145,7 @@ li {
 .auto-img {
   width: 250px;
   height: 170px;
+  border-radius: 10px;
 }
 
 .place-val {
@@ -155,14 +172,56 @@ li {
   border-radius: 40px;
 }
 
-.gallery {
-  flex-direction: column;
+.main__container {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
 }
 
-.gallery__container {
+.advantages {
+  margin: 50px 50px;
+}
+
+.advantages-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.advantages-width {
   display: grid;
-  grid-template-columns: repeat(4, 270px);
-  gap: 50px;
+  grid-template-columns: repeat(auto-fill, 270px);
+  gap: 40px;
+}
+
+.advantages-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages-ico {
+  width: 70px;
+  height: 70px;
+}
+
+.gallery {
+  margin: 50px 50px;
+}
+
+#gallery-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.gallery-width {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 270px);
+  margin: 0 auto;
+  justify-content: center;
+  gap: 100px;
 }
 
 .gallery-item {
@@ -190,6 +249,143 @@ li {
   flex-direction: column;
 }
 
-.social {
+.footer__social {
   flex-direction: column;
 }
+
+.ico-img-footer {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
+}
+
+.footer__info p {
+  margin-bottom: 40px;
+}
+
+.footer__info p:last-child {
+  margin-bottom: 0;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.faq {
+  margin-bottom: 40px;
+}
+
+.faq__container {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.faq-item {
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.faq-text {
+  display: none;
+  padding: 10px 15px;
+}
+
+.faq-title {
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.faq-input {
+  width: 0;
+  height: 0;
+  appearance: none;
+  position: absolute;
+}
+
+.faq-input:checked + .faq-text {
+  display: block;
+}
+
+#faq-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.dogovor-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.politika-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+.swiper {
+  width: 1680px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.swiper-slide img {
+  object-fit: cover;
+}
+
+/* .popup {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.popup.active {
+  display: block;
+}
+
+.popup-container {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+}
+
+.popup-body {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.popup input {
+  display: block;
+  margin: 25px auto 0 auto;
+  width: 350px;
+  padding: 17px 20px;
+  border: none;
+}
+
+.popup-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+} */

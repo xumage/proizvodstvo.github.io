@@ -3,10 +3,15 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script defer src="/js/script.js"></script>
+
+
 	<title>ИП Автопарк</title>
 </head>
 
@@ -20,18 +25,20 @@
 
 				<a href="index.html"><img class="logo" src="img/ava autopark.jpg" alt="Логотип"></a>
 				<nav class="header__nav">
-					<li><a class="header__nav-link" href="#">Услуги</a></li>
-					<li><a class="header__nav-link" href="#">О нас</a></li>
-					<li><a class="header__nav-link" href="#">Автопарк</a></li>
-					<li><a class="header__nav-link" href="#">Вопрос - ответ</a></li>
+					<li><a class="header__nav-link" href="#about">О нас</a></li>
+					<li><a class="header__nav-link" href="#advantages-title">Преимущества</a></li>
+					<li><a class="header__nav-link" href="#gallery-title">Автопарк</a></li>
+					<li><a class="header__nav-link" href="#faq-title">Вопрос - ответ</a></li>
 				</nav>
 				<div class="social">
 					<a target="_blank" href="https://vk.com/autoparkrent"><img class="ico-img" src="img/vk-ico.png"
 							alt="Группа вконтакте"></a>
 					<a target="_blank" href="https://t.me/autoparkrent"><img class="ico-img" src="img/tg-ico.png"
 							alt="Группа телеграм"></a>
-					<a href="tel:+791777777777">+7-917-777-77-77</a>
+					<a class="social-tel" href="tel:+791777777777">+7-917-777-77-77</a>
 				</div>
+
+
 
 
 			</div>
@@ -39,78 +46,111 @@
 
 
 
-		<main>
+		<main class="main">
 			<div class="container main__container">
 				<div class="intro">
 					<img class="main-photo" src="img/main-photo.png" alt="Изображение автобуса">
 
 					<div class="description-width">
-						МЫ ПРЕДЛАГАЕМ:
+						Добро пожаловать на сайт нашей компании по аренде автомобилей! Мы гордимся тем, что предоставляем нашим
+						клиентам полный
+						комплект документов и полную страховку пассажиров, чтобы обеспечить им максимальную безопасность и комфорт
+						во время
+						поездок.
 
-						<p>Копии всех документов, при необходимости отправку оригиналов почтой.</p>
-						<p>Полный комплект бухгалтерских и сопроводительных документов.</p>
-						<p>Возможность отправки сборного и попутного груза.</p>
-						<p>Страховку пассажиров.</p>
-						<p>Свободные машины каждый день, водители со стажем от 10 лет.</p>
-						<p>Любую форму оплаты - наличными, безналичными с НДС, безналичными без НДС.</p>
-						<p>Менеджеров на связи 24/7.</p>
-						<p>Электронный документооборот.</p>
-						<p>Перевозки выполняются от адреса до адреса, точно в срок.</p>
-						<p>Документы на возмещение средств.</p>
-						<p>Возможность личного сопровождения пассажиров.</p>
-						<p>Быструю подачу транспорта, бронь автомобиля на нужную вам дату.</p>
-						<p>Работаем с ЮР лицами и ИП.</p>
-						<p>Индивидуальный подход к каждому клиенту.</p>
-						<p>Отслеживание груза.</p>
-						<p>Гибкие и выгодные тарифы перевозок.</p>
-						<p>Проверяем всех водителей перед отправкой груза.</p>
-						<p>Гарантия сохранности груза по договору.</p>
-						<p>Любой тип кузова и загрузки.</p>
+						Наша команда состоит из опытных водителей со стажем более 10 лет, которые обладают не только безупречными
+						навыками
+						вождения, но и прекрасным знанием дорог и маршрутов. Мы гарантируем вам надежность и профессионализм каждого
+						нашего
+						водителя.
+
+						Одним из наших главных преимуществ являются выгодные цены на перевозки. Мы понимаем, что каждый клиент ценит
+						свое время
+						и деньги, поэтому мы стремимся предложить самые конкурентные тарифы на рынке. У нас вы всегда найдете
+						оптимальное
+						соотношение цены и качества.
+
+						Наш автопарк состоит из самых разных автомобилей, чтобы удовлетворить все ваши потребности. От элегантного
+						Mercedes-Benz
+						E200 до мощного Scania R580 - у нас есть автомобиль для каждого случая. Независимо от того, нужно ли вам
+						перевезти
+						пассажиров или крупногабаритные грузы, мы всегда предоставим вам подходящий транспорт.
+
+						Мы гордимся своей репутацией и стремимся предоставить нашим клиентам только лучший сервис. Мы готовы
+						воплотить в жизнь
+						любые ваши пожелания и обеспечить вас комфортной и безопасной поездкой.
+
+						Не откладывайте свои планы на потом - обратитесь к нам прямо сейчас и оцените все преимущества работы с
+						нашей компанией
+						по аренде автомобилей. Мы гарантируем, что вы останетесь довольны нашим сервисом и вернетесь к нам снова!
+						<p>Автопарк - откройте дорогу к безграничной свободе!</p>
 					</div>
 
 					<img class="license-img" src="img/license.png" alt="Изображение автобуса">
 
 				</div>
 
-				<div class="advantages">
-					<div class="advantages-title">
-						Преимущества
-					</div>
 
-					<div class="container advantages-container">
-						<div class="advantages-items">
-							<img class="advantages-ico" src="img/intercity-ico.png" alt="Межгород">
-							Межгород
-						</div>
-						<div class="advantages-items">
-							<img class="advantages-ico" src="img/exp-ico.png" alt="Более 10 лет работы">
-							Более 10 лет работы
-						</div>
-						<div class="advantages-items">
-							<img class="advantages-ico" src="img/clear-ico.png" alt="Чистота в салоне">
-							Чистота салона
-							<img src="" alt="">
-						</div>
-						<div class="advantages-items">
-							<img class="advantages-ico" src="img/rent-ico.png" alt="Аренда с водителем">
-							Аренда с водителем
-						</div>
-						<div class="advantages-items">
-							<img class="advantages-ico" src="img/professional-drivers-ico.png" alt="Профессиональные водители">
-							Профессиональные водители
-						</div>
-						<div class="advantages-items">
-							<img class="advantages-ico" src="img/rating-ico.png" alt="Более 50 положительных отзывов">
-							Более 50 положительных отзывов
-						</div>
 
+				<div class="about">
+					<div class="container about__container">
+						<div id="about" class="about-title">
+							О нас
+						</div>
+						<iframe class="about-video" width="560" height="315"
+							src="https://www.youtube.com/embed/nOfJsfmmXUk?si=y-YFe9Eb4L20SvWj" title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen></iframe>
 					</div>
 				</div>
 
 
-				<div class="gallery">
-					<div class="container gallery__container">
-						<div class="gallery-title">Автопарк</div>
+
+				<!-- swiper -->
+
+
+				<h1 id="advantages-title" class="advantages-title">Преимущества</h1>
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="advantages-ico" src="/img/intercity-ico.png">
+							<div class="swiper-slide-text">Межгород</div>
+						</div>
+						<div class="swiper-slide"><img class="advantages-ico" src="/img/exp-ico.png">
+							<div class="swiper-slide-text">Более 10 лет работы</div>
+						</div>
+						<div class="swiper-slide"><img class="advantages-ico" src="/img/clear-ico.png">
+							<div class="swiper-slide-text"></div>Чистота салона
+						</div>
+						<div class="swiper-slide"><img class="advantages-ico" src="/img/rent-ico.png">
+							<div class="swiper-slide-text">Аренда с водителем</div>
+						</div>
+						<div class="swiper-slide"><img class="advantages-ico" src="/img/professional-drivers-ico.png">
+							<div class="swiper-slide-text">Профессиональные водители</div>
+						</div>
+						<div class="swiper-slide"><img class="advantages-ico" src="/img/rating-ico.png">
+							<div class="swiper-slide-text">Более 50 положительных отзывов</div>
+						</div>
+
+
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+
+				</div>
+
+
+
+				<!-- swiper -->
+
+
+
+				<section class="gallery">
+					<div id="gallery-title">
+						Автопарк
+					</div>
+					<div class="gallery-width">
 						<div class="gallery-item">
 							<img class="auto-img" src="img/gazel next.jpeg" alt="Фото транспорта">
 							<div class="gallery-item-title">Газель Некст</div>
@@ -119,145 +159,239 @@
 									16
 								</div>
 								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
-									16
+									6
 								</div>
 								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
-									16
+									1
 								</div>
 							</div>
 							<div class="gallery-item-time-info">
 								час - 1000 руб
 								<div class="order-btn">
-									<a href="#">Заказать</a>
+									<a href="#popup" class="open-popup">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img class="auto-img" src="img/e200.jpg" alt="Фото транспорта">
+							<div class="gallery-item-title">Mercedes-Benz E200</div>
+							<div class="place-val">
+								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
+									4
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
+									0
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
+									0
+								</div>
+							</div>
+							<div class="gallery-item-time-info">
+								час - 5000 руб
+								<div class="order-btn">
+									<a href="#popup" class="open-popup">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img class="auto-img" src="img/r580.jpg" alt="Фото транспорта">
+							<div class="gallery-item-title">Scania r580</div>
+							<div class="place-val">
+								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
+									3
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
+									0
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
+									0
+								</div>
+							</div>
+							<div class="gallery-item-time-info">
+								час - 3000 руб
+								<div class="order-btn">
+									<a href="#popup" class="open-popup">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img class="auto-img" src="img/next gruz.jpg" alt="Фото транспорта">
+							<div class="gallery-item-title">Газель Некст</div>
+							<div class="place-val">
+								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
+									3
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
+									0
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
+									0
+								</div>
+							</div>
+							<div class="gallery-item-time-info">
+								час - 1500 руб
+								<div class="order-btn">
+									<a href="#popup" class="open-popup">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img class="auto-img" src="img/next pass.jpeg" alt="Фото транспорта">
+							<div class="gallery-item-title">Газель Некст</div>
+							<div class="place-val">
+								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
+									16
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
+									4
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
+									2
+								</div>
+							</div>
+							<div class="gallery-item-time-info">
+								час - 1500 руб
+								<div class="order-btn">
+									<a href="#popup" class="open-popup">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img class="auto-img" src="img/ducato.png" alt="Фото транспорта">
+							<div class="gallery-item-title">Fiat Ducato Maxi</div>
+							<div class="place-val">
+								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
+									16
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
+									8
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
+									1
+								</div>
+							</div>
+							<div class="gallery-item-time-info">
+								час - 2000 руб
+								<div class="order-btn">
+									<a href="#popup" class="open-popup">Подробнее</a>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img class="auto-img" src="img/logan.jpg" alt="Фото транспорта">
+							<div class="gallery-item-title">Renault Logan</div>
+							<div class="place-val">
+								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
+									5
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
+									0
+								</div>
+								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
+									0
+								</div>
+							</div>
+							<div class="gallery-item-time-info">
+								час - 800 руб
+								<div class="order-btn">
+									<a href="#popup" class="open-popup">Подробнее</a>
 								</div>
 							</div>
 						</div>
 
-						<div class="gallery-item">
-							<img class="auto-img" src="img/gazel next.jpeg" alt="Фото транспорта">
-							<div class="gallery-item-title">Газель Некст</div>
-							<div class="place-val">
-								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
-									16
+
+						<!-- POP-UP -->
+						<!-- 
+						<div id="popup" class="popup">
+							<div class="popup-container">
+								<div class="popup-body">
+									<div class="popup__title">Заголовок</div>
+									<div class="popup__text">
+										<form action="">
+											<input type="text">
+											<input type="text">
+											<button></button>
+										</form>
+									</div>
+									<div id="popup-close" class="popup-close">&#10006</div>
 								</div>
 							</div>
-							<div class="gallery-item-time-info">
-								час - 1000 руб
-								<div class="order-btn">
-									<a href="#">Заказать</a>
-								</div>
+						</div> -->
+
+						<!-- POP-UP -->
+
+
+					</div>
+				</section>
+
+
+				<section class="faq">
+					<div id="faq-title">
+						Вопрос - ответ
+					</div>
+					<div class="container faq__container">
+						<div class="faq-item">
+							<label class="faq-title" for="faq_1">Аренда происходит с водителем или без?</label>
+							<input type="checkbox" class="faq-input" id="faq_1">
+							<div class="faq-text">
+								<p>Арендовать авто можно как с водителем, так и без него.</p>
 							</div>
 						</div>
-
-						<div class="gallery-item">
-							<img class="auto-img" src="img/gazel next.jpeg" alt="Фото транспорта">
-							<div class="gallery-item-title">Газель Некст</div>
-							<div class="place-val">
-								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
-									16
-								</div>
-							</div>
-							<div class="gallery-item-time-info">
-								час - 1000 руб
-								<div class="order-btn">
-									<a href="#">Заказать</a>
-								</div>
+						<div class="faq-item">
+							<label class="faq-title" for="faq_2">На какой срок можно взять автомобиль?</label>
+							<input type="checkbox" class="faq-input" id="faq_2">
+							<div class="faq-text">
+								<p>Авто можно арендовать от 1 часа. Конкретные сроки обговариваются по телефону при аренде.</p>
 							</div>
 						</div>
-
-						<div class="gallery-item">
-							<img class="auto-img" src="img/gazel next.jpeg" alt="Фото транспорта">
-							<div class="gallery-item-title">Газель Некст</div>
-							<div class="place-val">
-								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
-									16
-								</div>
-							</div>
-							<div class="gallery-item-time-info">
-								час - 1000 руб
-								<div class="order-btn">
-									<a href="#">Заказать</a>
-								</div>
+						<div class="faq-item">
+							<label class="faq-title" for="faq_3">Что произойдет после нажатия кнопки "Заказать"?</label>
+							<input type="checkbox" class="faq-input" id="faq_3">
+							<div class="faq-text">
+								<p>Вам позвонит менеджер для уточнения условий и попросит документы для удовстоверения личности.</p>
 							</div>
 						</div>
-
-						<div class="gallery-item">
-							<img class="auto-img" src="img/gazel next.jpeg" alt="Фото транспорта">
-							<div class="gallery-item-title">Газель Некст</div>
-							<div class="place-val">
-								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
-									16
-								</div>
-							</div>
-							<div class="gallery-item-time-info">
-								час - 1000 руб
-								<div class="order-btn">
-									<a href="#">Заказать</a>
-								</div>
+						<div class="faq-item">
+							<label class="faq-title" for="faq_4">Как возвращать автомобиль?</label>
+							<input type="checkbox" class="faq-input" id="faq_4">
+							<div class="faq-text">
+								<p>1. Бензин должен быть на том же уровне, что и при получении. Если при возврате уровень топлива
+									оказался
+									ниже, разница
+									оплачивается по цене 55 рублей за литр, либо по согласованию с владельцем.
+								<p>2. В случае возврата грязного автомобиля (если был выдан чистый) оплата мойки происходит по
+									согласованию
+									с владельцем</p>
+								</p>
 							</div>
 						</div>
-
-						<div class="gallery-item">
-							<img class="auto-img" src="img/gazel next.jpeg" alt="Фото транспорта">
-							<div class="gallery-item-title">Газель Некст</div>
-							<div class="place-val">
-								<div class="place-val-box"><img class="place-val-img" src="img/sit.png" alt="Сидячих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/man.png" alt="Стоящих мест...">
-									16
-								</div>
-								<div class="place-val-box"><img class="place-val-img" src="img/invalid.png" alt="Стоячих мест...">
-									16
-								</div>
-							</div>
-							<div class="gallery-item-time-info">
-								час - 1000 руб
-								<div class="order-btn">
-									<a href="#">Заказать</a>
-								</div>
+						<div class="faq-item">
+							<label class="faq-title" for="faq_5">Кто оплачивает штрафы?</label>
+							<input type="checkbox" class="faq-input" id="faq_5">
+							<div class="faq-text">
+								<p>Штраф оплачивается из залога. Остаток залога возвращается заказчику.</p>
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
+
 
 			</div>
 		</main>
 
+
+
+
 		<footer class="footer">
 			<div class="container footer__container">
 				<div class="footer__info">
-					<p><a href="#">Политика конфиденциальности</a></p>
-					<p><a href="#">Договор</a></p>
+					<p><a target="_blank" href="politika-conf.html">Политика конфиденциальности</a></p>
+					<p><a target="_blank" href="dogovor.html">Договор</a></p>
 				</div>
-				<div class="social">
-					<a target="_blank" href="https://vk.com/autoparkrent"><img class="ico-img" src="img/vk-ico.png"
+				<div class="social footer__social">
+					<a target="_blank" href="https://vk.com/autoparkrent"><img class="ico-img-footer" src="img/vk-ico.png"
 							alt="Группа вконтакте"></a>
-					<a target="_blank" href="https://t.me/autoparkrent"><img class="ico-img" src="img/tg-ico.png"
+					<a target="_blank" href="https://t.me/autoparkrent"><img class="ico-img-footer" src="img/tg-ico.png"
 							alt="Группа телеграм"></a>
 					<a href="tel:+791777777777">+7-917-777-77-77</a>
 				</div>
@@ -265,6 +399,9 @@
 		</footer>
 
 	</div>
+
+
+
 
 
 </body>
