@@ -20,6 +20,9 @@
   .intro {
     padding: 0 50px;
   }
+  .footer {
+    padding: 25px;
+  }
 }
 
 @media (max-width: 1532px) {
@@ -37,7 +40,36 @@
     margin: 50px 0;
   }
   .faq {
-    margin: 0 25px;
+    margin: 0 25px 50px;
+  }
+}
+
+@media (max-width: 828px) {
+  * {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  #gallery-title,
+  #advantages-title,
+  #faq-title,
+  .about-title {
+    font-size: 35px;
+  }
+
+  .license-img {
+    margin: 50px 0;
+    width: 550px;
+    height: 700px;
+  }
+  .description-width {
+    margin-right: 0;
+  }
+
+  #advanages-title {
+    font-size: 35px;
+  }
+  .gallery-width {
+    flex-direction: column;
   }
 }
 
@@ -48,32 +80,22 @@
 
   .gallery-item {
     max-width: 450px;
-    flex-direction: column;
   }
 
   .auto-img {
     width: 100%;
   }
-}
-
-@media (max-width: 828px) {
-  .license-img {
-    margin: 50px 0;
-    width: 550px;
-    height: 700px;
-  }
-  .description-width {
-    margin-right: 0;
-    font-size: 25px;
-    line-height: 1.5;
+  .gallery-item-time-info {
+    flex-direction: column;
   }
 
-  .about-title {
-    font-size: 35px;
+  .place-val-box {
+    margin-bottom: 25px;
   }
-
-  #advanages-title {
-    font-size: 35px;
+  .order-btn {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 141px;
   }
 }
 
@@ -81,5 +103,32 @@
   .license-img {
     width: 100%;
     height: 100%;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .ico-img-footer {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 454px) {
+  .gallery-item {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .auto-img {
+    margin-bottom: 10px;
+  }
+  .gallery-item-title {
+    margin-bottom: 10px;
   }
 }
