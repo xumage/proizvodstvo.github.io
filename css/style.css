@@ -361,6 +361,11 @@ li {
 
 /* CARS PREVIEW */
 
+.car-info-width {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .specifications {
   max-width: 1010px;
   margin: 0 auto;
@@ -420,10 +425,6 @@ li {
   display: flex;
   flex-direction: column;
 }
-
-.driver-ask {
-  margin: 25px 80px 20px;
-}
 /* ДАТА АРЕНДЫ */
 .rent-date-title {
   font-size: 25px;
@@ -439,3 +440,16 @@ li {
   width: 340px;
 }
 /* МЕСТО АРЕНДЫ */
+
+.driverYY::after {
+  content: "+1500";
+}
+
+.submit-btn {
+  background-color: rgb(46, 46, 255);
+  padding: 5px;
+  font-size: 25px;
+  color: #fff;
+  border-radius: 30px;
+  margin: 25px 0;
+}

@@ -60,7 +60,3 @@ const choices = new Choices(element, {
   itemSelectText: "",
 });
 // СПИСОК
-
-// ЛИЧНЫЙ ВОДИТЕЛЬ
-
-// ЛИЧНЫЙ ВОДИТЕЛЬ
