@@ -27,9 +27,9 @@ var swiper = new Swiper(".mySwiper", {
 
 // СЛАЙДЕР преимущества
 
-//СЛАЙДЕР ПРЕВЬЮ
+//СЛАЙДЕР e200
 
-var swiper = new Swiper(".preSwiper", {
+var swiper = new Swiper(".e200Swiper", {
   spaceBetween: 30,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -39,7 +39,61 @@ var swiper = new Swiper(".preSwiper", {
   slidesPerView: 1,
 });
 
-// СЛАЙДЕР ПРЕВЬЮ
+// СЛАЙДЕР next
+
+var swiper = new Swiper(".nextSwiper", {
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  keyboard: true,
+  slidesPerView: 1,
+});
+
+// СЛАЙДЕР next
+
+// СЛАЙДЕР r580
+
+var swiper = new Swiper(".r580Swiper", {
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  keyboard: true,
+  slidesPerView: 1,
+});
+
+// СЛАЙДЕР r580
+
+// СЛАЙДЕР ducato
+
+var swiper = new Swiper(".ducatoSwiper", {
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  keyboard: true,
+  slidesPerView: 1,
+});
+
+// СЛАЙДЕР ducato
+
+// СЛАЙДЕР logan
+
+var swiper = new Swiper(".loganSwiper", {
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  keyboard: true,
+  slidesPerView: 1,
+});
+
+// СЛАЙДЕР logan
 
 // КАЛЕНДАРЬ
 
@@ -60,3 +114,7 @@ const choices = new Choices(element, {
   itemSelectText: "",
 });
 // СПИСОК
+
+// burger menu
+
+// burger menu
